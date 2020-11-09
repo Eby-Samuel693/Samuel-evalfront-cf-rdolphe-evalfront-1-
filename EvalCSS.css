@@ -1,5 +1,5 @@
 .a1{
-    border-style: solid;
+    border-style: none;
     border-color: darkgrey;
     border-width: 6px;
     width: 1000px;
@@ -188,3 +188,6 @@ h2{
     color: white;
 }
 
+h1{
+    margin-left: 20px;
+}
