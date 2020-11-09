@@ -1,6 +1,7 @@
 .a1{
-    border-style: none;
-    border-color: black;
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 6px;
     width: 1000px;
     height: 600px;
     margin-left: 200px;

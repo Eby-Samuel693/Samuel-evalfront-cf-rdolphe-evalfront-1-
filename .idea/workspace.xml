@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c0ab871-539c-473d-bfc1-d63188f1d996" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EvalCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7c0ab871-539c-473d-bfc1-d63188f1d996" name="Default Changelist" comment="EVA" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +62,16 @@
       <workItem from="1604675506101" duration="587000" />
       <workItem from="1604826549911" duration="1610000" />
       <workItem from="1604828251958" duration="8900000" />
+      <workItem from="1604837759663" duration="184000" />
     </task>
+    <task id="LOCAL-00001" summary="EVA">
+      <created>1604837813931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604837813931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +88,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="EVA" />
+    <option name="LAST_COMMIT_MESSAGE" value="EVA" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2" timestamp="1604837819837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="83" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604837819837" />
   </component>
 </project>
