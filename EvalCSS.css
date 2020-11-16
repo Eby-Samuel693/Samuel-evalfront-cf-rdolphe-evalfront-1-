@@ -1,13 +1,18 @@
-.a1{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
     border-style: none;
     border-color: darkgrey;
     border-width: 6px;
     width: 1000px;
     height: 600px;
-    margin-left: 200px;
+    margin: 0;
 }
 
-.a2{
+.div1{
     position: absolute;
     border-style: none;
     border-color: black;
@@ -17,7 +22,7 @@
     color: white;
 }
 
-.a4{
+.div2{
     position: relative;
     border-style: none;
     border-color: black;
@@ -34,7 +39,7 @@
     margin-top: 60px;
 }
 
-.a5{
+.div3{
     position: relative;
     border-style: none;
     border-color: black;
@@ -50,7 +55,7 @@
     margin-top: 60px;
 }
 
-.a6{
+.div4{
     position: relative;
     border-style: none;
     border-color: black;
@@ -68,7 +73,7 @@
     margin-top: 60px;
 }
 
-.a7{
+.div5{
     position: relative;
     border-style: none;
     border-color: black;
@@ -77,7 +82,6 @@
     left: 400px;
     bottom: 400px;
     background-color: mediumseagreen;
-
 }
 
 .fa-square{
@@ -87,7 +91,7 @@
     margin-top: 60px;
 }
 
-.a8{
+.div6{
     position: relative;
     border-style: none;
     border-color: black;
@@ -103,7 +107,7 @@
     margin-top: 60px;
 }
 
-.a9{
+.div7{
     position: relative;
     border-style: none;
     border-color: black;
@@ -119,7 +123,7 @@
     margin-left: 75px;
     margin-top: 60px;
 }
-.a10{
+.div8{
     position: relative;
     border-style: none;
     border-color: black;
@@ -137,7 +141,7 @@
     margin-top: 60px;
 }
 
-.img{
+.img1{
     margin-left: 600px;
     margin-top: -1400px;
 }
@@ -149,19 +153,20 @@ p{
     color: white;
     text-align: center;
     font-size: 12px;
+    margin-top: 5px;
 }
 
 h1{
     font-size: 20px;
     top: 20px;
 }
-.b1{
+.petit1{
     position: relative;
     border-style: solid;
     width: 90px;
     height: 30px;
     left: 40px;
-    top: 20px;
+    top: 40px;
 }
 
 h2{
@@ -170,14 +175,13 @@ h2{
     margin-left: 10px;
 }
 
-.b2{
+.petit2{
     position: relative;
     border-style: solid;
     width: 90px;
     height: 30px;
     left: 160px;
-    top: -17px;
-
+    top: 5px;
 }
 
 .fa-inbox-in{
@@ -189,5 +193,30 @@ h2{
 }
 
 h1{
-    margin-left: 20px;
+    text-align: center;
+}
+
+@media screen and ( max-width: 450px) {
+    container {
+        margin: 0;
+        width: 450px;
+        font-size: 0.5rem;
+        display: inline-block;
+    }
+    .img1 {
+        padding: 1rem;
+        width: 100%;
+        float: bottom;
+    }
+
+    #div1 {
+        width: 100%px;
+
+
+    }
+
+    #div2 ,#div3 ,#div4 {
+        width: 100%;
+        display: inline-block;
+    }
 }
