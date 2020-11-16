@@ -4,16 +4,13 @@
 }
 
 .container{
-    border-style: none;
-    border-color: darkgrey;
-    border-width: 6px;
     width: 1000px;
     height: 600px;
     margin: 0;
 }
 
 .div1{
-    position: absolute;
+
     border-style: none;
     border-color: black;
     width:400px;
@@ -23,12 +20,14 @@
 }
 
 .div2{
-    position: relative;
+
     border-style: none;
     border-color: black;
     width: 200px;
     height: 200px;
     left: 400px;
+    margin-left: 400px;
+    margin-top: -200px;
     background-color: orange;
 }
 
@@ -40,7 +39,6 @@
 }
 
 .div3{
-    position: relative;
     border-style: none;
     border-color: black;
     width: 200px;
@@ -56,13 +54,13 @@
 }
 
 .div4{
-    position: relative;
+
     border-style: none;
     border-color: black;
     width: 200px;
     height: 200px;
-    left: 200px;
-    bottom: 200px;
+    margin-left: 200px;
+    margin-top: -200px;
     background-color: red;
 }
 
@@ -74,13 +72,13 @@
 }
 
 .div5{
-    position: relative;
+
     border-style: none;
     border-color: black;
     width: 200px;
     height: 200px;
-    left: 400px;
-    bottom: 400px;
+    margin-left: 400px;
+    margin-top: -200px;
     background-color: mediumseagreen;
 }
 
@@ -92,12 +90,11 @@
 }
 
 .div6{
-    position: relative;
+
     border-style: none;
     border-color: black;
     width: 200px;
     height: 200px;
-    bottom: 400px;
     background-color: darkorange;
 }
 .fa-plus{
@@ -108,13 +105,13 @@
 }
 
 .div7{
-    position: relative;
+
     border-style: none;
     border-color: black;
     width: 200px;
     height: 200px;
-    left: 200px;
-    bottom: 600px;
+    margin-left: 200px;
+    margin-top: -200px;
     background-color: dodgerblue;
 }
 .fa-file-contract{
@@ -124,13 +121,13 @@
     margin-top: 60px;
 }
 .div8{
-    position: relative;
+
     border-style: none;
     border-color: black;
     width: 200px;
     height: 200px;
-    left: 400px;
-    bottom: 800px;
+    margin-left: 400px;
+    margin-top: -200px;
     background-color: darkorange;
 }
 
@@ -143,7 +140,7 @@
 
 .img1{
     margin-left: 600px;
-    margin-top: -1400px;
+    margin-top: -600px;
 }
 img{
     width: 400px;
@@ -197,26 +194,54 @@ h1{
 }
 
 @media screen and ( max-width: 450px) {
-    container {
+    .container {
         margin: 0;
-        width: 450px;
+        width: 100%;
         font-size: 0.5rem;
-        display: inline-block;
+        display: block;
     }
+
+    .div2 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .div3 {
+        margin-top: -200px;
+        margin-left: 200px;
+    }
+
+    .div4 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .div5 {
+        margin-top: -200px;
+        margin-left: 200px;
+    }
+
+    .div6 {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .div7 {
+        margin-top: -200px;
+        margin-left: 200px;
+    }
+
+    .div8 {
+        margin-top: 0;
+        margin-left: 0;
+        width: 400px;
+    }
+
+    .fa-tv {
+        align-items: normal;
+    }
+
     .img1 {
-        padding: 1rem;
-        width: 100%;
-        float: bottom;
-    }
-
-    #div1 {
-        width: 100%px;
-
-
-    }
-
-    #div2 ,#div3 ,#div4 {
-        width: 100%;
-        display: inline-block;
+        margin: 0;
     }
 }
